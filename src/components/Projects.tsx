@@ -13,7 +13,7 @@ import h1 from '../assets/img/clients/Screenshot (139).png'
 import h2 from '../assets/img/clients/Screenshot (137).png'
 import h3 from '../assets/img/clients/Screenshot (138).png'
 import h4 from '../assets/img/clients/Screenshot (140).png'
-import h5 from '../assets/img/clients/Screenshot (167).png'
+import h5 from '../assets/img/clients/flightsearch.png'
 // import a from "../assets/img/screenshots/a.png";
 // import b from "../assets/img/screenshots/b.png";
 // import c from "../assets/img/screenshots/c.png";
