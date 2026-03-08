@@ -246,7 +246,7 @@ const ProjectsSection = () => {
             </h1>
             <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-               My projects are simple and basic to handle easily.Based on my knowledge I will work in these Projects.Its an beginner level projects but i will Show my knowledge to my best to You.
+             These projects showcase my foundational skills in frontend development. Each project demonstrates practical application of HTML, CSS, JavaScript, Bootstrap and React, highlighting my ability to build functional, responsive, and interactive web applications. While beginner-level, these projects reflect my commitment to writing clean code and delivering quality user experiences.
             </p>
           </div>
 
