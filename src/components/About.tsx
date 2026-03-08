@@ -1,10 +1,10 @@
 import React from "react";
-import image from "../assets/img/moorthi.png";
+// import image from "../assets/img/moorthi.png";
+import mypic from '../assets/img/clients/mypic-2.jpg'
 
 const About: React.FC = () => (
   <section id="about" className="about">
     <div className="container" data-aos="fade-up">
-      {/* align-items-stretch ensures both columns are exactly the same height */}
       <div className="row align-items-stretch">
         {/* Image Column */}
         <div
@@ -12,15 +12,14 @@ const About: React.FC = () => (
           data-aos="fade-left"
           data-aos-delay="100"
         >
-          {/* h-100 ensures the div takes full height of the parent row */}
           <div className="h-100 w-full flex items-center justify-center overflow-hidden pointer-events-none select-none">
             <img
-              src={image}
-              // h-full and object-cover ensure the image fills the height without distortion
-              className="img-fluid w-full h-full object-cover"
+              src={mypic}
+              className="img-fluid w-full object-cover"
               onContextMenu={(e) => e.preventDefault()}
               alt="MSR"
-              style={{ minHeight: "400px" }} // Ensures image doesn't get too small on mobile
+              id="mypic2"
+              style={{ minHeight: "400px" }}
             />
           </div>
         </div>
@@ -35,38 +34,33 @@ const About: React.FC = () => (
           <ul className="space-y-4 text-gray-600 text-lg">
             <li>
               <i className="bi bi-briefcase-fill me-2 text-primary"></i>
-              Software Engineer specializing in functional programming with{" "}
-              <strong>Elixir</strong> and <strong>Phoenix Framework</strong>,
-              building scalable backend architectures.
+              Frontend Developer and Web Designer with strong expertise in <strong>HTML, CSS, Bootstrap, JavaScript, Redux</strong>, and{" "}
+              <strong>React.js</strong>, building responsive and interactive
+              user interfaces.
             </li>
             <li>
               <i className="bi bi-code-slash me-2"></i>
-              Currently leading the development of complex Helpdesk systems for
-              large-scale EdTech platforms, handling critical admission and fee
-              workflows.
+              Skilled in creating modern, pixel-perfect designs and
+              implementing dynamic web applications that deliver excellent user
+              experiences across devices.
             </li>
             <li>
-              <i className="bi bi-graph-up me-2 text-primary"></i>
-              Proficient in designing efficient <strong>PostgreSQL</strong>{" "}
-              schemas and developing real-time, reactive user interfaces with{" "}
-              <strong>Vue3.js</strong>.
+              <i className="bi bi-palette-fill me-2 text-primary"></i>
+              Experienced in translating UI/UX designs into clean, reusable,
+              and maintainable code while following best practices for
+              accessibility and performance optimization.
             </li>
-
-            {/* New Extra Point 1: Technical Depth */}
             <li>
-              <i className="bi bi-database-fill-gear me-2"></i>
-              Experienced in optimizing database performance using Ecto
-              aggregations and implementing automated workflow engines that
-              streamline business processes and reduce manual intervention.
+              <i className="bi bi-bootstrap-fill me-2"></i>
+              Proficient in leveraging <strong>Bootstrap</strong> and
+              component-based architecture in React to accelerate development
+              of responsive layouts and interactive elements.
             </li>
-
-            {/* New Extra Point 2: Soft Skills/Growth */}
             <li>
               <i className="bi bi-people-fill me-2 text-primary"></i>
-              Dedicated to delivering high-performance, user-centric
-              applications in distributed agile environments. I am passionate
-              about continuous learning, adapting to emerging technologies, and
-              contributing to the long-term success of the organization.
+              Collaborative team player passionate about continuous learning,
+              exploring emerging frontend technologies, and delivering
+              high-quality solutions that enhance business outcomes.
             </li>
           </ul>
         </div>

@@ -7,27 +7,28 @@ import 'swiper/css/pagination';
 // You'll need to create this folder structure in your src folder
 import client1 from '../assets/img/clients/1.gif';
 import client2 from '../assets/img/clients/2.gif';
-import client3 from '../assets/img/clients/3.gif';
+// import client3 from '../assets/img/clients/3.gif';
 import client4 from '../assets/img/clients/4.gif';
 import client5 from '../assets/img/clients/5.gif';
-import client6 from '../assets/img/clients/6.gif';
-import client7 from '../assets/img/clients/7.gif';
-import client8 from '../assets/img/clients/8.png';
-import client9 from '../assets/img/clients/9.png';
-import client10 from '../assets/img/clients/10.png';
+import client6 from '../assets/img/clients/Bootstrap.jpg'
+import client7 from '../assets/img/clients/Hooks _ React Redux.jpg'
+// import client6 from '../assets/img/clients/6.gif';
+// import client7 from '../assets/img/clients/7.gif';
+// import client8 from '../assets/img/clients/8.png';
+// import client9 from '../assets/img/clients/9.png';
+// import client10 from '../assets/img/clients/10.png';
 
 // Store the imported images in an array
 const clientLogos = [
   client1,
   client2,
-  client3,
   client4,
   client5,
-  client6, 
+  client6,
   client7,
-  client8,
-  client9,
-  client10,
+  // client8,
+  // client9,
+  // client10,
 ];
 
 const Clients = () => {

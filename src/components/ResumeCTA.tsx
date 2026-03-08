@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import cta from '../assets/img/cta-bg.jpg';
+import cta from '../assets/img/unnamed.jpg';
 
 const ResumeCTA: React.FC = () => {
   const [isDownloading, setIsDownloading] = useState(false);
@@ -9,12 +9,12 @@ const ResumeCTA: React.FC = () => {
     
     try {
       // Direct link to your Google Drive file for download
-      const resumeUrl = "https://drive.google.com/file/d/1GO9Up9bVdiJK8i_iDcBq30QyAVF2doyY/view?usp=sharing";
+      const resumeUrl = "Thatchanamoorthy_resume (1).pdf";
       
       // Create an anchor element
       const link = document.createElement('a');
       link.href = resumeUrl;
-      link.setAttribute('download', 'Ramachandramoorthi_Resume.pdf');
+      link.setAttribute('download', 'Thatchanamoorthy_resume (1).pdf');
       link.setAttribute('target', '_blank');
       
       // Append to body, click and remove
@@ -45,7 +45,7 @@ const ResumeCTA: React.FC = () => {
         <div className="text-center text-white">
           <h3 className="text-3xl font-bold mb-4">My Resume</h3>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
-            To explore my Education, professional experience, skills, and projects.
+            To explore my Education, skills, and projects.
           </p>
           <button 
             onClick={handleDownload} 

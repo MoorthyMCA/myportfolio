@@ -6,68 +6,86 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // Import your existing images
-import h1 from "../assets/img/screenshots/HD1.png";
-import hd2 from "../assets/img/screenshots/HD2.png";
-import hd3 from "../assets/img/screenshots/HD3.png";
-import a from "../assets/img/screenshots/a.png";
-import b from "../assets/img/screenshots/b.png";
-import c from "../assets/img/screenshots/c.png";
-import d from "../assets/img/screenshots/d.png";
-import e from "../assets/img/screenshots/e.png";
-import f from "../assets/img/screenshots/f.png";
-import g from "../assets/img/screenshots/g.png";
-import h from "../assets/img/screenshots/h.png";
-import i from "../assets/img/screenshots/i.png";
+// import h1 from "../assets/img/screenshots/HD1.png";
+// import hd2 from "../assets/img/screenshots/HD2.png";
+// import hd3 from "../assets/img/screenshots/HD3.png";
+import h1 from '../assets/img/clients/Screenshot (139).png'
+import h2 from '../assets/img/clients/Screenshot (137).png'
+import h3 from '../assets/img/clients/Screenshot (138).png'
+import h4 from '../assets/img/clients/Screenshot (140).png'
+import h5 from '../assets/img/clients/Screenshot (167).png'
+// import a from "../assets/img/screenshots/a.png";
+// import b from "../assets/img/screenshots/b.png";
+// import c from "../assets/img/screenshots/c.png";
+// import d from "../assets/img/screenshots/d.png";
+// import e from "../assets/img/screenshots/e.png";
+// import f from "../assets/img/screenshots/f.png";
+// import g from "../assets/img/screenshots/g.png";
+// import h from "../assets/img/screenshots/h.png";
+// import i from "../assets/img/screenshots/i.png";
 
 // 1. REARRANGED ORDER: Helpdesk -> E-Learn -> ScholarSphere -> HealthChain
 const projects = [
   {
-    name: "Helpdesk System (Sastra LMS)",
-    tech: ["Elixir", "Phoenix", "Vue.js", "PostgreSQL"],
-    repo: "https://github.com/MRAMACHANDRAMOORTHI/Helpdesk.git",
-    demo: "#",
+    name: "Booksky",
+    tech: ["HTML", "CSS","JavaScript"],
+    repo: "https://github.com/MoorthyMCA",
+    demo: "https://thatchanamoorthymca-booksky.netlify.app",
     comingSoon: true, // Flag for "Launching Soon"
-    screenshots: [h1, hd2, hd3],
+    screenshots: [h1],
     description:
-      "A high-performance ticketing system architected for the Sastra Online Learning Platform to streamline admission and fee queries.",
+      "The website functions like a to-do list, where users can add, read, and delete their entries.To more View Description section.",
     fullDescription:
-      'Solely architected the Helpdesk module using Phoenix (Elixir) and Vue3. Features include an automated SLA tracking engine, "Round Robin" ticket assignment algorithms, and real-time analytics dashboards. The system handles thousands of student queries with a robust state-machine workflow.',
+      'The project showcases interactive UI components, smooth hover effects, and a mobile-friendly layout, demonstrating proficiency in frontend development, dynamic DOM manipulation, and responsive design.',
   },
   {
-    name: "Digital E-Learning Platform",
-    tech: ["React", "Node.js", "TypeScript", "Firebase"],
-    repo: "https://github.com/CICT-Chennai/elearningportal.git",
-    demo: "https://elearning-portal-ten.vercel.app/",
+    name: "Javascript Form Validation",
+    tech: ["HTML","CSS","JavaScript"],
+    repo: "https://github.com/MoorthyMCA",
+    demo: "https://thatchanamoorthymca-form-validation.netlify.app",
     comingSoon: false,
-    screenshots: [g, h, i],
+    screenshots: [h2],
     description:
-      "Developed a robust and scalable e-learning platform for the Central Institute of Classical Tamil (CICT) with interactive courses.",
+      "I just built a registration form with client-side validation using JavaScript.TO  more view Description section.",
     fullDescription:
-      "Developed a robust and scalable e-learning platform for the Central Institute of Classical Tamil (CICT). This comprehensive solution offers interactive courses, multimedia learning resources, and personalized learning paths for students of Tamil language and literature.",
+      "Using JavaScript to dynamically validate user input and provide instant feedback.Clear error messages, highlighting invalid fields, and smooth interaction to guide users.",
   },
   {
-    name: "Scholorsphere",
-    tech: ["React", "Node.js", "TypeScript", "Firebase"],
-    repo: "https://github.com/MRAMACHANDRAMOORTHI/Scholorsphere",
-    demo: "https://mramachandramoorthi.github.io/Scholorsphere/",
+    name: "Simple Calculator",
+    tech: ["HTML", "CSS", "JavaScript"],
+    repo: "https://github.com/MoorthyMCA",
+    demo: "https://thatchanamoorthymca-calculator.netlify.app",
     comingSoon: false,
-    screenshots: [d, e, f],
+    screenshots: [h3],
     description:
-      "Scholorsphere is a comprehensive academic resource-sharing platform developed to foster collaboration among students and faculty.",
+      "this calculator project, where I brought together HTML, CSS, and JavaScript to create a sleek and in iteractive.",
     fullDescription:
-      "Scholorsphere is a comprehensive academic resource-sharing platform developed to foster collaboration among students, faculty, and researchers. The platform facilitates the exchange of research papers, educational materials, and academic insights through a user-friendly interface.",
+     "I developed a Calculator Web App using HTML, CSS, and JavaScript, combining functionality with a clean, interactive interface. The app performs basic arithmetic operations (addition, subtraction, multiplication, division) and provides a smooth user experience with responsive buttons and instant calculation results.",
   },
   {
-    name: "Healthchain",
-    tech: ["React", "Node.js", "TypeScript", "Firebase"],
-    repo: "https://github.com/MRAMACHANDRAMOORTHI/Healthchain.git",
-    demo: "https://mramachandramoorthi.github.io/Healthchain/",
+    name: "Guess the Number",
+    tech: ["HTML", "CSS", "JavaScript"],
+    repo: "https://github.com/MoorthyMCA",
+    demo: "https://thatchanamoorthyrmca-gameproject.netlify.app",
     comingSoon: false,
-    screenshots: [a, b, c],
+    screenshots: [h4],
     description:
-      "HealthChain is a blockchain-based medical records management system designed to ensure secure, transparent, and tamper-proof storage.",
+      "Users enter a num,If it matches the randomly generated number by the system (Math.floor(Math.random()*10) + 1), they win! If not, they lose.",
     fullDescription:
-      "HealthChain is a blockchain-based medical records management system designed to ensure secure, transparent, and tamper-proof storage of patient data. The platform leverages blockchain technology to give patients control over their medical information while enabling healthcare providers to access necessary data with appropriate permissions.",
+    "I created a Number Guessing Game using HTML, CSS, and JavaScript, where users try to guess a number randomly generated by the system. The system generates a number between 1 and 10 using Math.floor(Math.random() * 10) + 1.",
+  },
+
+   {
+    name: "FlightSearch",
+   tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.js", "Axios"],
+    repo: "https://github.com/MoorthyMCA",
+    demo: "https://flightsearch-i5i1.onrender.com",
+    comingSoon: false,
+    screenshots: [h5],
+    description:
+      "Developed a Flight Search Web Application that allows users to search and explore available flights based on travel details. The application is built using React.js with a component-based architecture to ensure scalability and maintainability.",
+    fullDescription:
+   "Users can enter travel information such as departure location, destination, travel date, cabin class, airline preference, and price range to find suitable flights. The application fetches flight data dynamically using Axios and displays results in an organized and user-friendly interface.",
   },
   // Add other projects here if needed
 ];
@@ -228,8 +246,7 @@ const ProjectsSection = () => {
             </h1>
             <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-              Explore my technical portfolio featuring enterprise-grade
-              applications, blockchain solutions, and educational platforms.
+               My projects are simple and basic to handle easily.Based on my knowledge I will work in these Projects.Its an beginner level projects but i will Show my knowledge to my best to You.
             </p>
           </div>
 

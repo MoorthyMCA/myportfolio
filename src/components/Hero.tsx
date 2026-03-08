@@ -1,16 +1,18 @@
 import React from 'react';
-import heroBg from '../assets/img/hero-bg.jpg'; // Adjust the path as necessary
-
+// import heroBg from '../assets/img/hero-bg.jpg'; // Adjust the path as necessary
+import bgimg from '../assets/img/clients/last.jpg'
 const Hero: React.FC = () => (
-  <section id="hero" className="d-flex align-items-center justify-content-center"  style={{ backgroundImage: `url(${heroBg})` }}>
+  <section id="hero" className="d-flex align-items-center justify-content-center"  style={{ backgroundImage: `url(${bgimg})` }}
+  
+  >
     <div className="container" data-aos="fade-up">
 
       <div className="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div className="col-xl-6 col-lg-8 text-center">
-          <h1>RAMACHANDRAMOORTHI <span>MUNIYAPPAN</span></h1>
+          <h1>THATCHANAMOORTHY <span>RAVICHANDRAN</span></h1>
          
           <h2>MCA</h2>
-          <h2 >Software Engineer</h2>
+          <h2 >Front-End Developer & Web Designer</h2>
         </div>
       </div>
 

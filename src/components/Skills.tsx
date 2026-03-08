@@ -1,5 +1,6 @@
 import React from "react";
-import features from "../assets/img/convo.jpg"; // Adjust the path as necessary
+// import features from "../assets/img/convo.jpg"; // Adjust the path as necessary
+import picc from '../assets/img/clients/mypic3.jpg'
 
 const Skills: React.FC = () => (
   <section id="pers-skills" className="skills section-bg">
@@ -11,9 +12,10 @@ const Skills: React.FC = () => (
           data-aos="fade-right"
         >
           <img
-            src={features}
+            src={picc}
             alt="My Skills"
             className="img-fluid rounded shadow"
+            id="mypic3"
             style={{ maxHeight: "650px", objectFit: "contain" }}
           />
         </div>
@@ -25,11 +27,7 @@ const Skills: React.FC = () => (
           data-aos-delay="150"
         >
           {[
-            {
-              icon: "bi bi-tools",
-              title: "Problem Solving",
-              text: "Analysis, Logical reasoning, Observation, Brainstorming, Decision making.",
-            },
+            
             {
               icon: "bi bi-option",
               title: "Work Ethic",
@@ -38,34 +36,38 @@ const Skills: React.FC = () => (
             {
               icon: "bi bi-journal-check",
               title: "Communication",
-              text: "Verbal communication, Written communication, Presentation, Feedback, Listening.",
+              text: "Written communication, Feedback, Listening.",
             },
-            {
-              icon: "bi bi-people",
-              title: "Interpersonal Skills",
-              text: "Empathy, Humor, Networking, Tolerance, Diplomacy.",
-            },
-            {
-              icon: "bi bi-person-hearts",
-              title: "Team Work",
-              text: "Collaboration, Mediation, Conflict management, Coordination, Idea exchange.",
-            },
-            {
-              icon: "bi bi-watch",
-              title: "Time Management",
-              text: "Planning, Organization, Prioritizing, Goal setting, Stress management.",
-            },
+         {
+    icon: "bi bi-people",
+    title: "Collaboration & Teamwork",
+    text: "Pair programming, Code reviews, Sharing ideas, Coordinating with designers.",
+  },
+
+             {
+    icon: "bi bi-person-hearts",
+    title: "Team Contribution",
+    text: "Collaborating on projects, Knowledge sharing, Conflict resolution in dev teams, Supporting team goals.",
+  },
+
+             {
+    icon: "bi bi-watch",
+    title: "Time Management",
+    text: "Prioritizing tasks, Sprint planning, Meeting deadlines, Efficient coding workflow, Managing multiple projects.",
+  },
             // --- NEW SKILLS ADDED BELOW ---
+
             {
-              icon: "bi bi-arrows-move",
-              title: "Adaptability",
-              text: "Flexibility, Resilience, Continuous learning, Agile mindset, Open-mindedness.",
-            },
-            {
-              icon: "bi bi-lightbulb",
-              title: "Creativity",
-              text: "Innovation, Curiosity, Originality, Resourcefulness, Vision.",
-            },
+    icon: "bi bi-arrows-move",
+    title: "Adaptability",
+    text: "Learning new things, Adjusting to project requirements, Responsive design adjustments, Staying updated with trends.",
+  },
+
+             {
+    icon: "bi bi-lightbulb",
+    title: "Creativity",
+    text: "UI/UX innovation, Designing interactive interfaces, Visual problem solving, Experimenting with layouts, Creative coding solutions.",
+  },
           ].map(({ icon, title, text }, idx) => (
             // d-flex aligns icon and text side-by-side
             <div

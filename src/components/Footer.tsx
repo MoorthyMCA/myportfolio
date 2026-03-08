@@ -17,13 +17,10 @@ const Footer: React.FC = () => {
           {/* Brand Section - R is warn color */}
           <div className="text-center md:text-left space-y-4">
             <h3 className="text-3xl font-bold tracking-wider">
-              <span className="text-white">M</span>
-              <span className="text-white">S</span>
-              <span className="text-yellow-500">R</span>
+              <span className="text-white">Moorth<span className="text-warning">y</span></span>
             </h3>
             <p className="text-gray-400 leading-relaxed max-w-xs mx-auto md:mx-0">
-              Software Engineer building scalable, user-centric solutions with
-              Elixir, Phoenix, and React.
+            Frontend Developer and Web Designer with strong expertise inHTML, CSS, Bootstrap, JavaScript, Redux, and React.js, building responsive and interactive user interfaces.
             </p>
           </div>
 
@@ -56,7 +53,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-6 text-white">Connect</h4>
             <div className="flex justify-center md:justify-end gap-6">
               <a
-                href="https://github.com/MRAMACHANDRAMOORTHI"
+                href="https://github.com/MoorthyMCA"
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300"
@@ -64,7 +61,7 @@ const Footer: React.FC = () => {
                 <FaGithub size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/ramachandramoorthi"
+                href="https://linkedin.com/in/thatchanamoorthy-r-b635b8298"
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-yellow-500 hover:text-gray-900 transition-all duration-300"
@@ -72,7 +69,7 @@ const Footer: React.FC = () => {
                 <FaLinkedin size={20} />
               </a>
               <a
-                href="https://www.instagram.com/ramachandramoorthi_m"
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-pink-600 hover:text-white transition-all duration-300"
@@ -80,7 +77,7 @@ const Footer: React.FC = () => {
                 <FaInstagram size={20} />
               </a>
               <a
-                href="mailto:mrcmoorthi@gmail.com"
+                href="mailto:thatchanamoorthy73@gmail.com"
                 className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-600 hover:text-white transition-all duration-300"
               >
                 <FaEnvelope size={20} />
@@ -92,7 +89,7 @@ const Footer: React.FC = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} Ramachandramoorthi M. All rights
+            &copy; {new Date().getFullYear()} Thatchanamoorthy. All rights
             reserved.
           </p>
           <p className="text-gray-500 text-sm flex items-center gap-1">
@@ -103,7 +100,7 @@ const Footer: React.FC = () => {
               rel="noreferrer"
               className="text-yellow-500 hover:text-yellow-400 font-medium ml-1"
             >
-              Ramachandramoorthi
+              Thatchanamoorthy
             </a>
           </p>
         </div>

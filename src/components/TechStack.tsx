@@ -1,94 +1,76 @@
 import React from "react";
 
 const techData = [
-  // --- CURRENT PRIMARY STACK (Ardhika) ---
+  // --- FRONTEND DEVELOPMENT SKILLS ---
   {
-    icon: "bi bi-droplet-fill", // Represents Elixir (liquid/drop)
-    title: "Elixir",
+    icon: "bi bi-code-slash",
+    title: "HTML5",
     description:
-      "My core language for backend engineering. I use functional programming and OTP to build fault-tolerant, scalable workflow engines for the Helpdesk system.",
-    link: "https://elixir-lang.org/",
+      "Semantic markup, accessibility, and SEO-friendly structures for modern web applications.",
+    link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
   },
   {
-    icon: "bi bi-fire", // Represents Phoenix
-    title: "Phoenix Framework",
+    icon: "bi bi-palette",
+    title: "CSS3",
     description:
-      "Architecting high-performance web applications. Currently using Phoenix to manage ticket lifecycles, SLA timers, and background jobs.",
-    link: "https://www.phoenixframework.org/",
-  },
-  {
-    icon: "bi bi-layers-fill", // Represents Vue Components
-    title: "Vue.js (Vue 3)",
-    description:
-      "Building the frontend for the Sastra LMS Helpdesk using Vue 3 and Composition API to create reactive dashboards and interactive ticket views.",
-    link: "https://vuejs.org/",
-  },
-  {
-    icon: "bi bi-database-check",
-    title: "PostgreSQL & Ecto",
-    description:
-      "Designing complex database schemas and using Ecto ORM for efficient data aggregation to power real-time analytics and reporting.",
-    link: "https://www.postgresql.org/",
-  },
-
-  // --- PREVIOUS EXPERIENCE & FOUNDATION (CICT / Retech) ---
-  {
-    icon: "bi bi-filetype-json",
-    title: "React.js",
-    description:
-      "Developed the CICT E-learning portal using React. Experienced with Hooks, Context API, and integrating Firebase for real-time data.",
-    link: "https://reactjs.org/",
-  },
-  {
-    icon: "bi bi-filetype-tsx",
-    title: "TypeScript",
-    description:
-      "Applied TypeScript in React and Node.js projects to ensure type safety and cleaner, scalable code — utilized extensively in the CICT portal.",
-    link: "https://www.typescriptlang.org/",
-  },
-  {
-    icon: "bi bi-filetype-js",
-    title: "JavaScript",
-    description:
-      "Strong command of ES6+ features, utilized across both my Vue.js current work and previous React/Node.js projects.",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
-    icon: "bi bi-filetype-java",
-    title: "Java",
-    description:
-      "Strong academic foundation and internship experience building enterprise backend logic and REST APIs using Java.",
-    link: "https://www.java.com/en/",
+      "Responsive layouts, Flexbox, Grid, animations, transitions, and modern styling techniques.",
+    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
     icon: "bi bi-bootstrap",
-    title: "Spring Boot",
+    title: "Bootstrap 5",
     description:
-      "Experience building RESTful APIs and optimizing backend performance during my internship at RETECH Solutions.",
-    link: "https://spring.io/projects/spring-boot",
+      "Rapid development of responsive layouts, UI components, and utilities with mobile-first design principles.",
+    link: "https://getbootstrap.com/",
   },
-
-  // --- TOOLS & CONCEPTS ---
   {
-    icon: "bi bi-diagram-2",
-    title: "System Design",
+    icon: "bi bi-lightning-charge",
+    title: "JavaScript (ES6+)",
     description:
-      'Applied system design principles to architect the Helpdesk "Round Robin" assignment logic and scalable database structures.',
-    link: "https://github.com/donnemartin/system-design-primer",
+      "DOM manipulation, event handling, asynchronous programming, API integration, and modern JavaScript features.",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    icon: "bi bi-react",
+    title: "React.js",
+    description:
+      "Component-based architecture, Hooks, state management, reusable UI components, and single-page application development.",
+    link: "https://reactjs.org/",
+  },
+  {
+    icon: "bi bi-stack",
+    title: "React Redux",
+    description:
+      "Managing global application state with Redux, integrating with React using Hooks and the Redux Toolkit for scalable apps.",
+    link: "https://redux.js.org/",
+  },
+  {
+    icon: "bi bi-phone",
+    title: "Responsive Design",
+    description:
+      "Creating mobile-first layouts and cross-device compatible websites using media queries and flexible grids.",
+    link: "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design",
+  },
+  {
+    icon: "bi bi-brush",
+    title: "UI/UX Design",
+    description:
+      "Designing user-centric interfaces, wireframing, prototyping, and implementing visually appealing designs.",
+    link: "https://www.interaction-design.org/literature/topics/ui-design",
+  },
+  {
+    icon: "bi bi-lightbulb",
+    title: "Problem Solving & Creativity",
+    description:
+      "Debugging, optimizing performance, building innovative solutions, and adapting to new frontend technologies.",
+    link: "https://www.frontendmentor.io/",
   },
   {
     icon: "bi bi-git",
     title: "Git & GitHub",
     description:
-      "Daily usage for version control, branching strategies, and team collaboration across distributed agile environments.",
+      "Version control, collaborative workflows, branching strategies, and managing code repositories for projects.",
     link: "https://git-scm.com/",
-  },
-  {
-    icon: "bi bi-hdd-network",
-    title: "RESTful APIs",
-    description:
-      " extensive experience designing and consuming REST APIs for smooth client-server communication in both Elixir and Java environments.",
-    link: "https://restfulapi.net/",
   },
 ];
 
@@ -97,7 +79,7 @@ const TechStack: React.FC = () => (
     <div className="container" data-aos="fade-up">
       <div className="section-title">
         <h2>Skills</h2>
-        <p>Programming Languages & Tools</p>
+        <p>Frontend Development & Design Tools</p>
       </div>
 
       <div className="row">

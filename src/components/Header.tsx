@@ -42,15 +42,10 @@ const Header: React.FC = () => {
             onClick={() => setMobileNav(false)}
             className="flex items-center gap-1 group"
           >
-            <span className="text-white group-hover:text-yellow-500 transition-colors">
-              M
+            <span className="text-white group-hover:text-yellow-500 transition-colors " style={{fontSize:"35px"}}>
+              Moorth<span className="text-warning group-hover:text-yellow-500 transition-colors">y</span>
             </span>
-            <span className="text-white group-hover:text-yellow-500 transition-colors">
-              S
-            </span>
-            <span className="text-yellow-500 group-hover:text-white transition-colors">
-              R
-            </span>
+         
           </HashLink>
         </h1>
 

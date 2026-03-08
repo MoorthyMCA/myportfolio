@@ -5,7 +5,7 @@ const Navbar: React.FC = () => (
     <div className="container d-flex align-items-center justify-content-lg-between">
       <h1 className="logo me-auto me-lg-0">
         <a href="#hero">
-          MS<span>R</span>
+       Moorthy
         </a>
       </h1>
 

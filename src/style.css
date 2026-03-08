@@ -32,6 +32,18 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+#mypic2{
+  height: 600px;
+  width: 500px;
+  margin-top: 5.5%;
+}
+
+#mypic3{
+  height: 550px;
+  /* width: 500px; */
+  margin-bottom: 5%;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

@@ -61,7 +61,7 @@ const Contact = () => {
 
           // CUSTOM ERROR MESSAGE FOR AD BLOCKERS
           setErrorMessage(
-            "Failed to send. Please disable any Ad Blockers (like uBlock) and try again, or email me directly at mrcmoorthi@gmail.com"
+            "Failed to send. Please disable any Ad Blockers (like uBlock) and try again, or email me directly at thatchanamoorthy73@gmail.com"
           );
         }
       );
@@ -103,10 +103,10 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-gray-800">Email</h3>
                   <a
-                    href="mailto:mrcmoorthi@gmail.com"
+                    href="mailto:thatchanamoorthy73@gmail.com"
                     className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                   >
-                    mrcmoorthi@gmail.com
+                    thatchanamoorthy73@gmail.com
                   </a>
                 </div>
               </div>
@@ -121,10 +121,10 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-gray-800">Phone</h3>
                   <a
-                    href="tel:+918072365616"
+                    href="tel:+919952653016"
                     className="text-green-600 hover:text-green-800 font-medium transition-colors"
                   >
-                    +91 80723 65616
+                    +91 9952653016
                   </a>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-gray-800">WhatsApp</h3>
                   <a
-                    href="https://wa.me/918072365616"
+                    href="https://wa.me/919952653016"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-500 hover:text-green-700 font-medium transition-colors"
@@ -159,7 +159,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-gray-800">LinkedIn</h3>
                   <a
-                    href="https://linkedin.com/in/ramachandramoorthi"
+                    href="https://linkedin.com/in/thatchanamoorthy-r-b635b8298"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
@@ -179,7 +179,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-gray-800">GitHub</h3>
                   <a
-                    href="https://github.com/MRAMACHANDRAMOORTHI"
+                    href="https://github.com/MoorthyMCA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
@@ -199,7 +199,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-bold text-gray-800">Instagram</h3>
                   <a
-                    href="https://www.instagram.com/ramachandramoorthi_m?igsh=YzljYTk1ODg3Zg=="
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-pink-600 hover:text-pink-800 font-medium transition-colors"
