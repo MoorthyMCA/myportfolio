@@ -9,12 +9,12 @@ const ResumeCTA: React.FC = () => {
     
     try {
       // Direct link to your Google Drive file for download
-      const resumeUrl = "Thatchanamoorthy_resume (1).pdf";
+      const resumeUrl = "moorthyresume.pdf";
       
       // Create an anchor element
       const link = document.createElement('a');
       link.href = resumeUrl;
-      link.setAttribute('download', 'Thatchanamoorthy_resume (1).pdf');
+      link.setAttribute('download', 'moorthyresume.pdf');
       link.setAttribute('target', '_blank');
       
       // Append to body, click and remove
